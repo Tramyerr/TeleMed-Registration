@@ -15,14 +15,14 @@ public class haveacc extends AppCompatActivity {
         setContentView(R.layout.activity_haveacc);
         Button backbtn = (Button) findViewById(R.id.backbtn);
 
-      //  backbtn.setOnClickListener(new View.OnClickListener() {
-        //    @Override
-          //  public void onClick(View v) {
-          //      startActivity(new Intent(haveacc.this, splash.class));
-          //  }
+      backbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(haveacc.this, MainActivity.class));
+           }
 
 
-       // });
+        });
 
     }
 }

@@ -670,12 +670,11 @@
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:layout_below="@+id/confirmpass"
-                android:layout_lignParentEnd="true"
+                android:layout_alignParentEnd="true"
                 android:layout_marginStart="-110dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="63dp"
-                android:layout_toEndOf="@+id/confirmpassw"
-               />
+                android:layout_toEndOf="@+id/confirmpassw"/>
 
 
                  <Button
