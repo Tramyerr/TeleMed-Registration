@@ -3,6 +3,7 @@ package com.example.telemed;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.os.Handler;
 import android.text.method.HideReturnsTransformationMethod;
 import android.text.method.PasswordTransformationMethod;
 import android.widget.DatePicker;
@@ -33,8 +34,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
         //show , hide password
         ImageView imageViewshowHidepass = findViewById(R.id.imgshow);
         imageViewshowHidepass.setImageResource(R.drawable.off);
@@ -80,9 +79,9 @@ public class MainActivity extends AppCompatActivity {
 
         EditText fname, mname, lname, sname, bday, contactnum,username, password, confirmpassw;
 
-        //radiobutton
-        male = (RadioButton) findViewById(R.id.male);
-        female = (RadioButton) findViewById(R.id.female);
+        // radiobutton
+       // male = (RadioButton) findViewById(R.id.male);
+       // female = (RadioButton) findViewById(R.id.female);
 
 
 
